@@ -25,8 +25,9 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-<section>
-	<h2>14 things I learned working on CarpoolVote.com</h2>
+<section data-background-color="white">
+	<h2 style="color:#333">14 things I learned working on</h2>
+	<img src="img/cpv-logo.png" class="plain" alt=""/>
 	<aside class="notes">
 		Hi I'm Richard.
 	</aside>
@@ -34,43 +35,66 @@
 <section data-background="img/app-idea.jpg" data-background-size="contain">
 	<aside class="notes">
 		<p>As a programmer, every now and then you get approached by someone who has this “great idea for an app” that’s gonna be ‘yuge’. And most of these ideas are terrible. And my defence to this is to be super sceptical.</p>
-		<p>Begin anecdote: Talking to Sasjkia about her idea, in the pub after codebar.</p>
 	</aside>
 </section>
-<section data-background="img/codebar.png" data-background-size="50% auto">
+<section data-background="img/codebar-website.png" data-background-size="contain" data-background-color="white">
+	<aside class="notes">
+		<p>This all started, for me, at the pub after codebar about a year ago.</p>
+		<p>I don't know if you've heard of codebar, it's this great non-profit organisation that helps encourage diversity in tech through weekly programming workshops, you should check it out.</p>
+	</aside>
 </section>
 <section>
 	<section>
 		<img src="img/king-of-thailand.png" alt="The King of Thailand">
 		<aside class="notes">
-			(Vision and backstory: Disenfranchisement. Voter ID laws. Gerrymandering.)
+			<p>I was talking to Sasjkia about her idea, in the pub after codebar.</p>
+			<p>This is Sasjkia. At least, this is the picture she initially sent me to use for this talk.</p>
 		</aside>
 	</section>
 	<section>
 		<img src="img/sasjkia.jpg" alt="Sasjkia" />
+		<aside class="notes">
+			<p>At the time everyone was kinda worried about the 2016 US election, but figured that Trump didn't have a hope.</p>
+		</aside>
 	</section>
 </section>
 <section data-background-color="white">
 	<section data-background-color="black" data-background="img/MustShowIDToVote.jpg" data-background-size="contain">
 		<aside class="notes">
-			Disenfranchisement. Voter ID laws. Gerrymandering.
+			<p>Sasjkia has a background in political organising with the Labour party, and was thinking about things like</p>
+			<p>Disenfranchisement. Voter ID laws. Gerrymandering. Citizens United. SuperPACs.</p>
 		</aside>
 	</section>
 	<section data-background="img/voter-id-maze.jpg" data-background-size="contain">
+		<aside class="notes">
+			<p>Introduces hurdles to intentionally reduce voter turnout. Effectively suppressing democratic representation.</p>
+			<p>Civil rights issue.</p>
+		</aside>
 	</section>
 	<section data-background="img/whodoesnthaveid.jpg" data-background-size="contain">
+		<aside class="notes">
+			<p>Mostly affects minorities and people who typically vote Democrat.</p>
+		</aside>
 	</section>
 	<section data-background="img/voter-id-map.png" data-background-size="contain">
+		<aside class="notes">
+			<p>Mostly affects parts of the US with Republican majorities, and often states with large black populations.</p>
+			<p>What is there were a website that helped connect people with cars with people who need a ride to the polls?</p>
+		</aside>
 	</section>
 </section>
 <section data-background="img/app-idea.jpg" data-background-size="contain">
 	<aside class="notes">
-		<p>I was sceptical about the idea. I thought it would never work, and that if local organisers weren't already doing this then there wasn't a need.</p>
+		<p>I was sceptical about the idea. I thought that if local organisers weren't already doing this then there wasn't a demand.</p>
 		<p>I also thought that Donald Trump didn’t have a hope of getting elected, and Hillary Clinton had it in the bag.</p>
 		<p>I was wrong on both counts.</p>
 	</aside>
 </section>
-<section data-background-color="white" data-background="img/cpv.png" data-background-size="contain">
+<section>
+	<section data-background-color="white" data-background="img/cpv.png" data-background-size="contain">
+	</section>
+	<section data-background-color="white" data-background-iframe="http://carpoolvote.com/" data-background-interactive>
+	</section>
 </section>
 <!-- <section>
 	<h1>❤️ Allies</h1>
@@ -118,7 +142,7 @@
 	<h2>Github is amazing</h2>
 	<aside class="notes">
 		<p>The PR and Issue process really helps when collaborating with strangers</p>
-		<p>Github Pages is super awesome</p>
+		<p>Github Pages. Collaborative, ease of deployment, etc.</p>
 	</aside>
 </section>
 <section>
@@ -184,7 +208,8 @@
 <section data-background="img/timezones.png" data-background-size="cover">
 	<h1 style="color:#111">Time zones are hard</h1>
 	<aside class="notes">
-		Time zones in JavaScript. US States, etc
+		<p>Our users are in different US States, and enter their availability. The US covers several time zones so we wanted to use absolute times and account for time zone differences.</p>
+		<p>Dealing with times and zones in JavaScript is a nightmare.</p>
 	</aside>
 </section>
 <!-- <section>
@@ -194,10 +219,12 @@
 	</aside>
 </section> -->
 <section data-background-color="white">
-	<img src="http://carpoolvote.com/images/logo.png" class="plain" alt="">
+	<img src="img/cpv-logo.png" class="plain" alt=""/>
+	<p style="color:#111; font-size:0.8em">codebar contributor wall of fame:</p>
+	<p style="display: block; color:#111; font-weight:bold;">Sasjkia Otto, Jon Kelly, Jo Franchetti, Jen Spencer, Izabeka Jelonek, Eli Schutz, me, you</p>
 	<h2 style="color:#111">Join us!</h2>
 	<aside class="notes">
-		It's really fun, it's a great way to get experience if you're a junior dev
+		<p>It's really fun, it's a great way to get experience if you're a junior dev</p>
 	</aside>
 </section>
 <section>
@@ -205,27 +232,44 @@
 		<img src="https://www.quantumblack.com/img/logo-clear.svg" class="plain" alt="">
 		<h2>We're hiring!</h2>
 		<aside class="notes">
-			Finally: QuantumBlack. “I know the company name sounds kind of sinister, but we’re actually a completely legitimate organisation. Here’s some pictures of our various worldwide offices, and some of my coworkers, and my boss. All totally normal and above board, nothing to see here. Anyway we’re hiring minions and henchmen to man our new subterranean lair under Trafalgar Square. If you’re interested please come talk to me, either in the pub afterwards, or get in touch at any of my variety of imaginative online handles.”
+			Finally: QuantumBlack.<br>
+			I know the company name sounds kind of sinister, but we’re actually a completely legitimate organisation.
+		</aside>
+	</section>
+	<section data-background="img/bond-lair2.png" data-background-size="contain">
+		<aside class="notes">
+			We have various offices around the world, this is our Boston office
 		</aside>
 	</section>
 	<section data-background="img/bond-lair.jpg" data-background-size="contain">
-	</section>
-	<section data-background="img/bond-lair2.png" data-background-size="contain">
+		<aside class="notes">
+			And this is the new one that we just opened in India.
+		</aside>
 	</section>
 	<section data-background="img/henchmen.jpg" data-background-size="contain">
+		<aside class="notes">
+			He's some of my friendly coworkers, you can see we're a diverse team.<br/>
+			We could do better with representation in leadership, but we're working on it.
+		</aside>
 	</section>
 	<section data-background="img/blofeld.png" data-background-size="contain">
+		<aside class="notes">
+			and this is my boss, he's a big animal-lover.
+		</aside>
 	</section>
 </section>
 <section>
 	<h1>Thanks!</h1>
 	<p>btw I am on the interwebs:</p>
-	<small><a href="http://richardwestenra.com">richardwestenra.com</a></small><br>
-	<small><a href="mailto:richard@richardwestenra.com">richard@richardwestenra.com</a></small><br>
-	<small><a href="http://twitter.com/richardwestenra">twitter.com/richardwestenra</a></small><br>
-	<small><a href="http://github.com/richardwestenra">github.com/richardwestenra</a></small><br>
-	<small><a href="http://linkedin.com/in/richardwestenra">linkedin.com/in/richardwestenra</a></small><br>
-	<small><a href="http://facebook.com/richardwestenra">facebook.com/richardwestenra</a></small><br>
+	<a class="social" style="left:2.17em" href="http://richardwestenra.com"> <i class="icon-home"></i> <b>richardwestenra</b>.com</a>
+	<a class="social" style="left:0em" href="mailto:richard@richardwestenra.com"> <i class="icon-email"></i> richard@<b>richardwestenra</b>.com</a>
+	<a class="social" style="left:-1.85em" href="http://twitter.com/richardwestenra"> <i class="icon-twitter"></i> twitter.com/<b>richardwestenra</b></a>
+	<a class="social" style="left:-1.85em" href="http://github.com/richardwestenra"> <i class="icon-github"></i> github.com/<b>richardwestenra</b></a>
+	<a class="social" style="left:-2.8em" href="http://linkedin.com/in/richardwestenra"> <i class="icon-linkedin"></i> linkedin.com/in/<b>richardwestenra</b></a>
+	<a class="social" style="left:-2.5em" href="http://facebook.com/richardwestenra"> <i class="icon-facebook"></i> facebook.com/<b>richardwestenra</b></a>
+	<aside class="notes">
+		If you’re interested please come talk to me, either in the pub afterwards, or get in touch at any of my variety of imaginative online handles.
+	</aside>
 </section>
 			</div>
 		</div>

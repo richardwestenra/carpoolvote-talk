@@ -1,7 +1,25 @@
+@import "../fontello/css/fontello.css";
+
 .reveal {
   section {
     img.plain {
       background: none;
+    }
+
+    .social {
+      display: block;
+      position: relative;
+      font-size: 0.65em;
+      margin: 0.5em 0;
+
+      i {
+        margin-right: 0.1em;
+      }
+
+      b {
+        color: #f3d7ac;
+        font-weight: normal;
+      }
     }
   }
 }
